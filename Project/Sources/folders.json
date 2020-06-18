@@ -1,0 +1,14 @@
+﻿{
+	"00  Basics": {
+		"methods": [
+			"contact_LB"
+		],
+		"forms": [
+			"00_basics_form"
+		]
+	},
+	"Default Forms": {},
+	"Default Project Methods": {},
+	"Default Tables": {},
+	"trash": {}
+}

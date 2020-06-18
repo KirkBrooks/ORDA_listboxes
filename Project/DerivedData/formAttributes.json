@@ -1,0 +1,8 @@
+﻿{
+	"forms": {
+		"00_basics_form": {
+			"timeStamp": "2020-06-18T16:56:46.603Z",
+			"destination": "detailScreen"
+		}
+	}
+}
