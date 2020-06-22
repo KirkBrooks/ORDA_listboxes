@@ -1,0 +1,97 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"contact_01_LB": {
+					"type": "listbox",
+					"left": 4,
+					"top": 43,
+					"width": 285,
+					"height": 507,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"dataSource": "Form:C1466.contact_01_LB.data",
+					"listboxType": "collection",
+					"currentItemSource": "Form:C1466.contact_01_LB.curItem",
+					"currentItemPositionSource": "Form:C1466.contact_01_LB.pos",
+					"selectedItemsSource": "Form:C1466.contact_01_LB.selected",
+					"metaSource": "contact_01_LB ",
+					"headerHeight": "2em",
+					"columns": [
+						{
+							"header": {
+								"text": "Name",
+								"name": "Header1",
+								"dataSource": ""
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"width": 260,
+							"dataSource": "This:C1470.last_name+\", \"+This:C1470.first_name",
+							"enterable": false
+						}
+					]
+				},
+				"searchWidget": {
+					"type": "input",
+					"left": 53,
+					"top": 12,
+					"width": 213,
+					"height": 17,
+					"dataSource": "Form:C1466.contact_01_LB.search",
+					"placeholder": "  enter a name"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Find :",
+					"top": 12,
+					"left": 6,
+					"width": 42,
+					"height": 16,
+					"stroke": "#808080"
+				}
+			}
+		}
+	],
+	"geometryStamp": 10
+}

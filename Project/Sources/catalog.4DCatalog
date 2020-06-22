@@ -2,4 +2,28 @@
 <!DOCTYPE base SYSTEM "http://www.4d.com/dtd/2007/base.dtd" >
 <base name="" uuid="10245562F7154D8C87C639C18CBF8D3B" collation_locale="en">
 	<schema name="DEFAULT_SCHEMA"/>
+	<table name="Contacts" uuid="80BED5486E194AAF9F93D8C8075CB512" id="1">
+		<field name="id" uuid="4863D313270D40ABA17A81293DE17798" type="10" unique="true" autogenerate="true" store_as_UUID="true" not_null="true" id="1"/>
+		<field name="first_name" uuid="4CB1B3D58ECA4261AA6431B458EBF599" type="10" limiting_length="40" never_null="true" id="2"/>
+		<field name="last_name" uuid="9E7BE4D29DFA4B09853551511699D3B0" type="10" limiting_length="40" never_null="true" id="3"/>
+		<field name="email" uuid="1F6A88A209A94D1881793ADDA58D14B6" type="10" limiting_length="255" never_null="true" id="4"/>
+		<field name="gender" uuid="EE0271BA21404B50B4C4D22861AA4093" type="10" limiting_length="10" never_null="true" id="5"/>
+		<field name="address" uuid="FA0C1FADB0794C4C976131068BF8E254" type="21" blob_switch_size="2147483647" never_null="true" id="6"/>
+		<field name="phone" uuid="7F8A9B33D78E4D5280EE819110276522" type="21" blob_switch_size="2147483647" never_null="true" id="7"/>
+		<field name="birthday" uuid="C9BD642C4BE14021A079AF8AACD70253" type="8" never_null="true" id="8"/>
+		<field name="company" uuid="69099A88B6094B4C992B40CF78D279FD" type="10" limiting_length="255" never_null="true" id="9"/>
+		<primary_key field_name="id" field_uuid="4863D313270D40ABA17A81293DE17798"/>
+		<table_extra output_form="output" input_form="input">
+			<editor_table_info displayable_fields_count="10">
+				<color red="255" green="255" blue="255" alpha="0"/>
+				<coordinates left="40" top="40" width="179.265625" height="264.18359375"/>
+			</editor_table_info>
+		</table_extra>
+	</table>
+	<index kind="regular" unique_keys="true" uuid="74875F13176944CFB8B82924F22E2C9A" type="7">
+		<field_ref uuid="4863D313270D40ABA17A81293DE17798" name="id">
+			<table_ref uuid="80BED5486E194AAF9F93D8C8075CB512" name="Contacts"/>
+		</field_ref>
+	</index>
+	<base_extra __stringCompHash="icu:63.1.0" __keywordBuildingHash="icu:63.1.0"/>
 </base>

@@ -7,8 +7,28 @@
 			"00_basics_form"
 		]
 	},
-	"Default Forms": {},
-	"Default Project Methods": {},
-	"Default Tables": {},
+	"01  Display Lists": {
+		"methods": [
+			"01__readMe",
+			"contact_01_LB"
+		],
+		"forms": [
+			"Contact_browser"
+		]
+	},
+	"Default Tables": {
+		"tables": [
+			"Contacts"
+		],
+		"forms": [
+			"[Contacts]input",
+			"[Contacts]output"
+		]
+	},
+	"lib": {
+		"methods": [
+			"import_contacts"
+		]
+	},
 	"trash": {}
 }

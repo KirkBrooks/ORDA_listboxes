@@ -1,14 +1,32 @@
 ﻿{
 	"Sources/Forms/00_basics_form/method.4dm": {
-		"left": 1871,
-		"top": 202,
-		"width": 722,
-		"height": 684
+		"left": 171,
+		"top": 279,
+		"width": 1298,
+		"height": 752
 	},
 	"Sources/Methods/contact_LB.4dm": {
 		"left": 476,
-		"top": 257,
+		"top": 282,
 		"width": 655,
-		"height": 562
+		"height": 537
+	},
+	"Sources/Methods/import_contacts.4dm": {
+		"left": 2259,
+		"top": 164,
+		"width": 1486,
+		"height": 581
+	},
+	"Sources/Methods/contact_01_LB.4dm": {
+		"left": 2259,
+		"top": 164,
+		"width": 899,
+		"height": 1183
+	},
+	"Sources/Methods/01__readMe.4dm": {
+		"left": 1198,
+		"top": 159,
+		"width": 1298,
+		"height": 752
 	}
 }

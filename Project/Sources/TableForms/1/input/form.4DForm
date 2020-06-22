@@ -1,0 +1,187 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"label_id": {
+					"type": "text",
+					"text": "id:",
+					"top": 430,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_id": {
+					"type": "input",
+					"dataSource": "[Contacts:1]id:1",
+					"top": 430,
+					"left": 120,
+					"width": 370,
+					"height": 17
+				},
+				"label_first_name": {
+					"type": "text",
+					"text": "first_name:",
+					"top": 11,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_first_name": {
+					"type": "input",
+					"dataSource": "[Contacts:1]first_name:2",
+					"top": 11,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_last_name": {
+					"type": "text",
+					"text": "last_name:",
+					"top": 42,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_last_name": {
+					"type": "input",
+					"dataSource": "[Contacts:1]last_name:3",
+					"top": 42,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_email": {
+					"type": "text",
+					"text": "email:",
+					"top": 73,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_email": {
+					"type": "input",
+					"dataSource": "[Contacts:1]email:4",
+					"top": 73,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				},
+				"label_gender": {
+					"type": "text",
+					"text": "gender:",
+					"top": 104,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_gender": {
+					"type": "input",
+					"dataSource": "[Contacts:1]gender:5",
+					"top": 104,
+					"left": 120,
+					"width": 70,
+					"height": 17
+				},
+				"label_address": {
+					"type": "text",
+					"text": "address:",
+					"top": 199,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_address": {
+					"type": "input",
+					"dataSource": "[Contacts:1]address:6",
+					"top": 199,
+					"left": 120,
+					"width": 370,
+					"height": 129
+				},
+				"label_phone": {
+					"type": "text",
+					"text": "phone:",
+					"top": 342,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_phone": {
+					"type": "input",
+					"dataSource": "[Contacts:1]phone:7",
+					"top": 342,
+					"left": 120,
+					"width": 370,
+					"height": 81
+				},
+				"label_birthday": {
+					"type": "text",
+					"text": "birthday:",
+					"top": 135,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_birthday": {
+					"type": "input",
+					"dataSource": "[Contacts:1]birthday:8",
+					"top": 135,
+					"left": 120,
+					"width": 130,
+					"height": 17
+				},
+				"label_company": {
+					"type": "text",
+					"text": "company:",
+					"top": 167,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_company": {
+					"type": "input",
+					"dataSource": "[Contacts:1]company:9",
+					"top": 167,
+					"left": 120,
+					"width": 250,
+					"height": 17
+				}
+			}
+		}
+	],
+	"geometryStamp": 89
+}

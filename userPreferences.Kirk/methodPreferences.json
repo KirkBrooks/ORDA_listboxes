@@ -19,5 +19,34 @@
 		],
 		"bookmarks": [],
 		"stamp": "2020-06-18T16:58:56.880Z"
+	},
+	"Sources/Methods/import_contacts.4dm": {
+		"startSelection": 4,
+		"endSelection": 4,
+		"firstSelectedLine": 22,
+		"lastSelectedLine": 22,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-06-22T01:18:35.024Z"
+	},
+	"Sources/Methods/contact_01_LB.4dm": {
+		"startSelection": 0,
+		"endSelection": 0,
+		"firstSelectedLine": 0,
+		"lastSelectedLine": 0,
+		"folding": [
+			0
+		],
+		"bookmarks": [],
+		"stamp": "2020-06-22T01:36:02.124Z"
+	},
+	"Sources/Methods/01__readMe.4dm": {
+		"startSelection": 43,
+		"endSelection": 43,
+		"firstSelectedLine": 5,
+		"lastSelectedLine": 5,
+		"folding": [],
+		"bookmarks": [],
+		"stamp": "2020-06-22T01:36:02.129Z"
 	}
 }

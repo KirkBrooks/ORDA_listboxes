@@ -1,0 +1,182 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"markerHeader": 30,
+	"markerBody": 60,
+	"events": [
+		"onLoad"
+	],
+	"windowTitle": "window title",
+	"destination": "listScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"background": {
+					"type": "rectangle",
+					"fill": "white",
+					"stroke": "transparent",
+					"top": 30,
+					"height": 30,
+					"left": 0,
+					"right": 1470
+				},
+				"label_first_name": {
+					"type": "text",
+					"text": "first_name",
+					"top": 10,
+					"left": 10,
+					"width": 100,
+					"height": 17
+				},
+				"field_first_name": {
+					"type": "input",
+					"dataSource": "[Contacts:1]first_name:2",
+					"top": 37,
+					"left": 10,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_2": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 265,
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"label_last_name": {
+					"type": "text",
+					"text": "last_name",
+					"top": 10,
+					"left": 270,
+					"width": 100,
+					"height": 17
+				},
+				"field_last_name": {
+					"type": "input",
+					"dataSource": "[Contacts:1]last_name:3",
+					"top": 37,
+					"left": 270,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_3": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 525,
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"label_email": {
+					"type": "text",
+					"text": "email",
+					"top": 10,
+					"left": 530,
+					"width": 100,
+					"height": 17
+				},
+				"field_email": {
+					"type": "input",
+					"dataSource": "[Contacts:1]email:4",
+					"top": 37,
+					"left": 530,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_4": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 785,
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"label_gender": {
+					"type": "text",
+					"text": "gender",
+					"top": 10,
+					"left": 790,
+					"width": 100,
+					"height": 17
+				},
+				"field_gender": {
+					"type": "input",
+					"dataSource": "[Contacts:1]gender:5",
+					"top": 37,
+					"left": 790,
+					"width": 110,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_7": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 925,
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"label_birthday": {
+					"type": "text",
+					"text": "birthday",
+					"top": 10,
+					"left": 930,
+					"width": 100,
+					"height": 17
+				},
+				"field_birthday": {
+					"type": "input",
+					"dataSource": "[Contacts:1]birthday:8",
+					"top": 37,
+					"left": 930,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				},
+				"line_8": {
+					"type": "line",
+					"top": 0,
+					"height": 60,
+					"left": 1185,
+					"width": 0,
+					"startPoint": "topLeft"
+				},
+				"label_company": {
+					"type": "text",
+					"text": "company",
+					"top": 10,
+					"left": 1190,
+					"width": 100,
+					"height": 17
+				},
+				"field_company": {
+					"type": "input",
+					"dataSource": "[Contacts:1]company:9",
+					"top": 37,
+					"left": 1190,
+					"width": 250,
+					"height": 17,
+					"borderStyle": "none"
+				}
+			}
+		}
+	],
+	"geometryStamp": 108
+}

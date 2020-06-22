@@ -2,27 +2,44 @@
 	"editors": [
 		{
 			"type": "form",
-			"id": 170,
+			"id": 247,
+			"formName": "Contact_browser"
+		},
+		{
+			"type": "method",
+			"id": 2147483643,
+			"previousTabType": "form",
+			"previousTabID": 123,
+			"codeDescriptor": {
+				"type": 1,
+				"methodName": "contact_01_LB"
+			}
+		},
+		{
+			"type": "form",
+			"id": 123,
 			"formName": "00_basics_form"
 		},
 		{
 			"type": "method",
-			"id": 2147483646,
+			"id": 2147483644,
 			"codeDescriptor": {
 				"type": 1,
-				"methodName": "contact_LB"
+				"methodName": "01__readMe"
 			}
 		},
 		{
 			"type": "explorer"
 		},
 		{
+			"type": "structure"
+		},
+		{
 			"type": "method",
 			"id": 2147483647,
 			"codeDescriptor": {
-				"type": 3,
-				"formName": "00_basics_form",
-				"methodPath": "/SOURCES/Forms/00_basics_form/method.4dm"
+				"type": 1,
+				"methodName": "contact_LB"
 			}
 		}
 	]
