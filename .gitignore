@@ -1,2 +1,14 @@
-Data/
-userPreferences.*
+# No user preferences
+userPreferences.*/
+
+# No Trash
+project/Trash/*
+
+# No derived data
+project/DerivedData/*
+
+# No data
+data/*
+
+# No logs
+logs/*
