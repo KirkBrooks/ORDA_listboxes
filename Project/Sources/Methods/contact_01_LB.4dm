@@ -20,9 +20,9 @@ Case of
 		If ($o.meta#Null:C1517)  // check it's defined
 			
 			Case of 
-				: (This:C1470.name="Kirk")
+				: (This:C1470.last_name="K@")
 					$0:=$o.meta[1]
-				: (This:C1470.name="J@")
+				: (This:C1470.first_name="J@")
 					$0:=$o.meta[2]
 				Else   // return our default format
 					$0:=$o.meta[0]

@@ -95,10 +95,21 @@
 					"width": 42,
 					"height": 16,
 					"stroke": "#808080"
+				},
+				"Subform": {
+					"type": "subform",
+					"left": 309,
+					"top": 88,
+					"width": 531,
+					"height": 305,
+					"table": 1,
+					"detailForm": "Contact_subform",
+					"borderStyle": "sunken",
+					"dataSource": "Form:C1466.contact_01_LB.curItem"
 				}
 			}
 		}
 	],
-	"geometryStamp": 10,
+	"geometryStamp": 13,
 	"method": "method.4dm"
 }

@@ -7,6 +7,10 @@
 		"output": {
 			"timeStamp": "2020-06-22T01:10:38.278Z",
 			"destination": "listScreen"
+		},
+		"Contact_subform": {
+			"timeStamp": "2020-06-27T19:30:52.121Z",
+			"destination": "detailScreen"
 		}
 	}
 }
