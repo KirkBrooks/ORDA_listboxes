@@ -44,9 +44,10 @@
 					"height": 359,
 					"events": [
 						"onClick",
-						"onHeaderClick",
+						"onDrop",
 						"onDataChange",
-						"onSelectionChange"
+						"onSelectionChange",
+						"onBeginDragOver"
 					],
 					"listboxType": "collection",
 					"dataSource": "Form:C1466.contact_LB.data",
@@ -54,6 +55,8 @@
 					"currentItemPositionSource": "Form:C1466.contact_LB.pos",
 					"selectedItemsSource": "Form:C1466.contact_LB.selected",
 					"metaSource": "contact_LB ",
+					"dragging": "custom",
+					"dropping": "custom",
 					"columns": [
 						{
 							"header": {

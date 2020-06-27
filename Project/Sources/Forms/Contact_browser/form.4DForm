@@ -55,6 +55,8 @@
 					"selectedItemsSource": "Form:C1466.contact_01_LB.selected",
 					"metaSource": "contact_01_LB ",
 					"headerHeight": "2em",
+					"dragging": "custom",
+					"dropping": "custom",
 					"columns": [
 						{
 							"header": {
@@ -79,7 +81,11 @@
 					"width": 213,
 					"height": 17,
 					"dataSource": "Form:C1466.contact_01_LB.search",
-					"placeholder": "  enter a name"
+					"placeholder": "  enter a name",
+					"events": [
+						"onAfterEdit"
+					],
+					"method": "ObjectMethods/searchWidget.4dm"
 				},
 				"Text": {
 					"type": "text",
@@ -93,5 +99,6 @@
 			}
 		}
 	],
-	"geometryStamp": 10
+	"geometryStamp": 10,
+	"method": "method.4dm"
 }
