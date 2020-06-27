@@ -1,11 +1,11 @@
 ﻿{
 	"forms": {
 		"Contact_browser": {
-			"timeStamp": "2020-06-27T19:32:26.709Z",
+			"timeStamp": "2020-06-27T22:33:57.963Z",
 			"destination": "detailScreen"
 		},
 		"00_basics_form": {
-			"timeStamp": "2020-06-26T19:01:55.206Z",
+			"timeStamp": "2020-06-27T22:33:57.962Z",
 			"destination": "detailScreen"
 		}
 	}
