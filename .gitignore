@@ -1,8 +1,14 @@
-Data/
-userPreferences.*
-userPreferences.Kirk/methodWindowPositions.json
-userPreferences.Kirk/preferences.4DPreferences
-userPreferences.Kirk/workspace.json
-userPreferences.Kirk/methodPreferences.json
-Data/data.journal
-Data/data.4DD
+# No user preferences
+userPreferences.*/
+
+# No Trash
+project/Trash/*
+
+# No derived data
+project/DerivedData/*
+
+# No data
+data/*
+
+# No logs
+logs/*
