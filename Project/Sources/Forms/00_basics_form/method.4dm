@@ -8,15 +8,15 @@ Form method
 Case of 
 	: (Form event code:C388=On Load:K2:1)
 		
-		  //contact_LB ("init")
-		  //$names_c:=New collection(\
-			New object("name";"Kirk");\
-			New object("name";"Guy");\
-			New object("name";"Brent");\
-			New object("name";"Jim");\
-			New object("name";"Joe");\
-			New object("name";"Binky"))
+		contact_LB ("init")
+		$names_c:=New collection:C1472(\
+			New object:C1471("name";"Kirk");\
+			New object:C1471("name";"Guy");\
+			New object:C1471("name";"Brent");\
+			New object:C1471("name";"Jim");\
+			New object:C1471("name";"Joe");\
+			New object:C1471("name";"Binky"))
 		
-		  //Form.contact_LB.data:=$names_c
+		Form:C1466.contact_LB.data:=$names_c
 		
 End case 
