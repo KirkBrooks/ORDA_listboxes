@@ -4,6 +4,10 @@
 			"timeStamp": "2020-06-27T19:32:26.709Z",
 			"destination": "detailScreen"
 		},
+		"Product_SortWebItems": {
+			"timeStamp": "2020-06-29T21:19:42.449Z",
+			"destination": "detailScreen"
+		},
 		"00_basics_form": {
 			"timeStamp": "2020-06-26T19:01:55.206Z",
 			"destination": "detailScreen"

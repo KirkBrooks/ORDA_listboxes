@@ -13,4 +13,8 @@ data/*
 # No logs
 logs/*
 Data/data.4DD
+<<<<<<< HEAD
+=======
+Data/data.4DD
+>>>>>>> 8fd52e880a3b360c238c7cee3b9d051118b17a26
 Data/data.journal
