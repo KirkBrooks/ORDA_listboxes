@@ -17,16 +17,6 @@
   // ----------------------------------------------------
   // # Start method
 
-  //C_COLLECTION($c)
-  //$c:=New collection
-  //For ($vCounter;1;10)
-  //$c.push(New object("id";$vCounter;"value";Random))
-  //End for 
-
-  //$c2:=$c.orderBy("value desc")
-  //$c2:=$c.orderBy("value asc")
-  //$c2:=$c.orderBy("value desc, id asc")
-
   //$employees:=ds.Employee.all()
 
 C_OBJECT:C1216($es)
@@ -35,7 +25,7 @@ C_OBJECT:C1216($es)
 C_COLLECTION:C1488($productColl)
   //$productColl:=ds.Products.query("WebReportShow = :1";True).toCollection("WebReportShow, Name, DateCreated, DateAvailable")
 
-$productColl:=ds:C1482.Products.query("WebReportShow = :1";True:C214).orderBy("DateAvailable asc").toCollection("WebReportShow, Name, DateAvailable, ProductID")
+$productColl:=ds:C1482.Contacts.query("gender = :1";"female").toCollection("first_name, last_name, address, id")
 
 
   //$productColl:=$es.toCollection("WebReportShow, Name, DateCreated")
@@ -55,7 +45,7 @@ $form_o:=New object:C1471
 $form_o.window:=New object:C1471(\
 "index";-1)
 
-$form_o.lb_es:=New object:C1471(\
+$form_o.lb:=New object:C1471(\
 "data";$productColl;\
 "curItem";Null:C1517;\
 "pos";-1;\
@@ -72,7 +62,7 @@ If (OK=1)
 	
 	  //CREATE EMPTY SET([Products];"Updated")
 	
-	$count:=$form_o.lb_es.data.length
+	$count:=$form_o.lb.data.length
 	For each ($element;$form_o.lb_es.data)
 		
 		  //$pid:=$element.ProductID
