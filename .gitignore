@@ -12,3 +12,5 @@ data/*
 
 # No logs
 logs/*
+Data/data.4DD
+Data/data.journal
