@@ -5,12 +5,12 @@
 	},
 	"windowSizingX": "variable",
 	"windowSizingY": "variable",
-	"windowMinWidth": 0,
+	"windowMinWidth": 450,
 	"windowMinHeight": 0,
 	"windowMaxWidth": 32767,
 	"windowMaxHeight": 32767,
-	"rightMargin": 20,
-	"bottomMargin": 20,
+	"rightMargin": 10,
+	"bottomMargin": 10,
 	"events": [
 		"onLoad",
 		"onPageChange",
@@ -40,7 +40,7 @@
 					"type": "listbox",
 					"left": 10,
 					"top": 11,
-					"width": 549,
+					"width": 453,
 					"height": 556,
 					"events": [
 						"onClick",
@@ -50,6 +50,9 @@
 					],
 					"listboxType": "collection",
 					"dataSource": "Form:C1466.lb.data",
+					"scrollbarHorizontal": "visible",
+					"sizingX": "grow",
+					"sizingY": "grow",
 					"columns": [
 						{
 							"header": {
@@ -61,7 +64,8 @@
 								"name": "Footer1"
 							},
 							"width": 48,
-							"dataSource": "This:C1470.DisplayOrder"
+							"dataSource": "This:C1470.DisplayOrder",
+							"minWidth": 48
 						},
 						{
 							"header": {
@@ -72,7 +76,8 @@
 							"footer": {
 								"name": "Footer2"
 							},
-							"dataSource": "This:C1470.first_name"
+							"dataSource": "This:C1470.first_name",
+							"minWidth": 128
 						},
 						{
 							"header": {
@@ -83,7 +88,8 @@
 							"footer": {
 								"name": "Footer3"
 							},
-							"dataSource": "This:C1470.last_name"
+							"dataSource": "This:C1470.last_name",
+							"minWidth": 128
 						},
 						{
 							"header": {
@@ -95,11 +101,13 @@
 							"footer": {
 								"name": "Footer5"
 							},
-							"width": 131
+							"width": 131,
+							"minWidth": 60
 						}
 					]
 				}
 			}
 		}
-	]
+	],
+	"method": "method.4dm"
 }

@@ -20,15 +20,11 @@
   //$employees:=ds.Employee.all()
 
 C_OBJECT:C1216($es)
-  //$es:=ds.Products.query("ProductID = :1";150)
 
 C_COLLECTION:C1488($productColl)
-  //$productColl:=ds.Products.query("WebReportShow = :1";True).toCollection("WebReportShow, Name, DateCreated, DateAvailable")
 
 $productColl:=ds:C1482.Contacts.query("gender = :1";"female").toCollection("first_name, last_name, address, id")
 
-
-  //$productColl:=$es.toCollection("WebReportShow, Name, DateCreated")
 
 $count:=1
 For each ($element;$productColl)
@@ -52,37 +48,8 @@ $form_o.lb:=New object:C1471(\
 "selected";Null:C1517)
 
 $wndRef:=Open form window:C675("Product_SortWebItems")
-SET WINDOW TITLE:C213("Sort Product List")
+SET WINDOW TITLE:C213("Contact List")
 DIALOG:C40("Product_SortWebItems";$form_o)
 
-If (OK=1)
-	
-	C_OBJECT:C1216($element)
-	C_LONGINT:C283($vlSrcElem;$vlDstElem;$pid)
-	
-	  //CREATE EMPTY SET([Products];"Updated")
-	
-	$count:=$form_o.lb.data.length
-	For each ($element;$form_o.lb_es.data)
-		
-		  //$pid:=$element.ProductID
-		  //QUERY([Products];[Products]ProductID=$pid)
-		  //[Products]DateAvailable:=Add to date(!00-00-00!;2020;Month of(CurrentDate);$count)
-		  //SAVE RECORD([Products])
-		  //$count:=$count-1
-		
-		  //  //$element["DateAvailable"]:=Add to date(!00-00-00!;2020;Month of(CurrentDate );$count)
-		  //  //$element.save()
-		
-		  //ADD TO SET([Products];"Updated")
-		
-	End for each 
-	USE SET:C118("Updated")
-	CLEAR SET:C117("Updated")
-	
-	  //ORDER BY([Products];[Products]DateAvailable;>)  // this sort is reverse from how its done on the website
-	  // since we always want Gift to Haven to appear at the top
-	
-End if 
 
   // # End method

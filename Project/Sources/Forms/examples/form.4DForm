@@ -1,0 +1,197 @@
+﻿{
+	"$4d": {
+		"version": "1",
+		"kind": "form"
+	},
+	"windowSizingX": "variable",
+	"windowSizingY": "variable",
+	"windowMinWidth": 0,
+	"windowMinHeight": 0,
+	"windowMaxWidth": 32767,
+	"windowMaxHeight": 32767,
+	"rightMargin": 20,
+	"bottomMargin": 20,
+	"events": [
+		"onLoad",
+		"onPageChange",
+		"onValidate",
+		"onClick",
+		"onDoubleClick",
+		"onOutsideCall",
+		"onBeginDragOver",
+		"onDragOver",
+		"onDrop",
+		"onAfterKeystroke",
+		"onMenuSelect",
+		"onPluginArea",
+		"onAfterEdit",
+		"onTimer",
+		"onBoundVariableChange"
+	],
+	"windowTitle": "window title",
+	"destination": "detailScreen",
+	"pages": [
+		{
+			"objects": {}
+		},
+		{
+			"objects": {
+				"List Box": {
+					"type": "listbox",
+					"left": 23,
+					"top": 51,
+					"width": 320,
+					"height": 431,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "currentSelection",
+					"table": 1,
+					"selectionMode": "single",
+					"dataSource": "lb_Contacts",
+					"columns": [
+						{
+							"header": {
+								"text": "Name",
+								"name": "Header1"
+							},
+							"name": "Column1",
+							"footer": {
+								"name": "Footer1"
+							},
+							"dataSource": "[Contacts:1]first_name:2+\" \"+[Contacts:1]last_name:3",
+							"width": 300
+						}
+					]
+				},
+				"Button1": {
+					"type": "button",
+					"text": "Data",
+					"top": 23,
+					"left": 272,
+					"width": 68,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button1.4dm"
+				},
+				"List Box1": {
+					"type": "listbox",
+					"left": 363,
+					"top": 51,
+					"width": 320,
+					"height": 431,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "array",
+					"selectionMode": "single",
+					"dataSource": "lb_Contacts",
+					"columns": [
+						{
+							"header": {
+								"text": "Name",
+								"name": "Header2"
+							},
+							"name": "Column2",
+							"footer": {
+								"name": "Footer2"
+							},
+							"width": 300,
+							"dataSource": "aCrewName"
+						}
+					]
+				},
+				"Button2": {
+					"type": "button",
+					"text": "Data",
+					"top": 23,
+					"left": 612,
+					"width": 68,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button2.4dm"
+				},
+				"Text": {
+					"type": "text",
+					"text": "Selection listbox",
+					"top": 23,
+					"left": 24,
+					"width": 116,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"Text1": {
+					"type": "text",
+					"text": "Array listbox",
+					"top": 23,
+					"left": 364,
+					"width": 116,
+					"height": 16,
+					"fontWeight": "bold"
+				},
+				"List Box2": {
+					"type": "listbox",
+					"left": 703,
+					"top": 51,
+					"width": 320,
+					"height": 431,
+					"events": [
+						"onClick",
+						"onHeaderClick",
+						"onDataChange",
+						"onSelectionChange"
+					],
+					"listboxType": "collection",
+					"selectionMode": "single",
+					"dataSource": "lb_Contacts",
+					"columns": [
+						{
+							"header": {
+								"text": "Name",
+								"name": "Header3"
+							},
+							"name": "Column3",
+							"footer": {
+								"name": "Footer3"
+							},
+							"width": 300,
+							"dataSource": "This:C1470.first_name+\" \"+This:C1470.last_name"
+						}
+					]
+				},
+				"Button3": {
+					"type": "button",
+					"text": "Data",
+					"top": 23,
+					"left": 952,
+					"width": 68,
+					"height": 20,
+					"events": [
+						"onClick"
+					],
+					"method": "ObjectMethods/Button3.4dm"
+				},
+				"Text2": {
+					"type": "text",
+					"text": "Entity selection listbox",
+					"top": 23,
+					"left": 704,
+					"width": 166,
+					"height": 16,
+					"fontWeight": "bold"
+				}
+			}
+		}
+	],
+	"method": "method.4dm"
+}
