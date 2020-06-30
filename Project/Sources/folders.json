@@ -1,7 +1,8 @@
 ﻿{
 	"00  Basics": {
 		"methods": [
-			"contact_LB"
+			"contact_LB",
+			"Show_FORM_00"
 		],
 		"forms": [
 			"00_basics_form"

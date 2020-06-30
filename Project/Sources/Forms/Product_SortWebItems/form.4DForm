@@ -50,9 +50,7 @@
 					],
 					"listboxType": "collection",
 					"dataSource": "Form:C1466.lb.data",
-					"scrollbarHorizontal": "visible",
-					"sizingX": "grow",
-					"sizingY": "grow",
+					"scrollbarHorizontal": "hidden",
 					"columns": [
 						{
 							"header": {
@@ -101,8 +99,8 @@
 							"footer": {
 								"name": "Footer5"
 							},
-							"width": 131,
-							"minWidth": 60
+							"width": 228,
+							"resizable": true
 						}
 					]
 				}
